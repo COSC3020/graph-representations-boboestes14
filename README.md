@@ -16,6 +16,10 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+## My Runtime Analysis
+
+The runtime for my adjacency matric to adjacency list would be $v^2$. This is because the number of times the first for loop runs is v, and the second for loop also runs v times. Therefore the runtime would be $v^2$.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
