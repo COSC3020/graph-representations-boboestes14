@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12559899&assignment_repo_type=AssignmentRepo)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -14,6 +15,10 @@ depend on the number of vertices, the number of edges, or both?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+## My Runtime Analysis
+
+The runtime for my adjacency matric to adjacency list would be $v^2$. This is because the number of times the first for loop runs is v, and the second for loop also runs v times. Therefore the runtime would be $v^2$.
 
 ## Bonus
 
